@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.top {
+  background-image: url('../images/backdrop.jpg');
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.resume {
+  position: fixed;
+  right: 1.5rem;
+  top: 0.5rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #3F72AF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.resume:hover {
+  background: #112D4E;
+  border: solid #112D4E 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.fname {
+  color: #3f72af;
+  margin-top: 0;
+  font-family: VT323, monospace;
+  font-size: 200px;
+  letter-spacing: 25px;
+  margin: 0 auto 0;
+  position: relative;
+  top: 35px;
+}
+
+.lname {
+  color: #3f72af;
+  margin-top: 0;
+  font-family: VT323, monospace;
+  font-size: 200px;
+  letter-spacing: 25px;
+  margin: 0 auto 0;
+}
+
+.letters-of-name:hover {
+  color: #112d4e;
+  font-weight: 700;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  margin: 30px 15px 30px;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  margin: 20px 0 15px;
+}
