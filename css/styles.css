@@ -4,15 +4,13 @@ body {
 
 .top {
   background-image: url('../images/backdrop.jpg');
-  height: 100%;
-  width: 100%;
   text-align: center;
 }
 
 .resume {
   position: fixed;
-  right: 1.5rem;
-  top: 0.5rem;
+  right: 1em;
+  top: 0.5em;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -29,6 +27,9 @@ body {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
 }
 
 .resume:hover {
@@ -41,23 +42,22 @@ body {
 }
 
 .fname {
-  color: #3f72af;
-  margin-top: 0;
-  font-family: VT323, monospace;
-  font-size: 200px;
-  letter-spacing: 25px;
-  margin: 0 auto 0;
-  position: relative;
-  top: 35px;
+  padding-top: 30px;
+  margin-bottom: -80px;
 }
 
 .lname {
+  margin-top: -60px;
+}
+
+.letters-of-name {
   color: #3f72af;
-  margin-top: 0;
+  margin-top: 20px;
   font-family: VT323, monospace;
-  font-size: 200px;
-  letter-spacing: 25px;
+  font-size: 5.23em;
+  letter-spacing: 15px;
   margin: 0 auto 0;
+  font-weight: bolder;
 }
 
 .letters-of-name:hover {
@@ -70,17 +70,36 @@ body {
 }
 
 .icons {
-  height: 40px;
-  width: 40px;
-  margin: 30px 15px 30px;
+  height: 50px;
+  width: 50px;
+  margin: -10px 15px 20px;
 }
 
 .icons:hover {
   transform: scale(1.2);
 }
 
+.arrow-box {
+  margin: 20px 0 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .arrow {
   height: 50px;
   width: 50px;
-  margin: 20px 0 15px;
+}
+
+
+
+
+.middle {
+  text-align: center;
+}
+
+
+
+
+.bottom {
+  text-align: center;
 }
