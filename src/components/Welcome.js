@@ -1,5 +1,3 @@
-import './Welcome.css';
-
 function CompWelcome() {
   return (
     <div className="Welcome">

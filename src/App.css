@@ -1,4 +1,13 @@
-.App {
+.AppHeader {
+  background-color: #FF7F50;
+  font-family: 'Roboto', sans-serif;
+  /* max-width: 1000px; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.AppBody {
   font-family: 'Roboto', sans-serif;
   max-width: 1000px;
   margin-left: auto;
@@ -6,37 +15,48 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppFooter {
+  background-color: #FF7F50;
+  font-family: 'Roboto', sans-serif;
+  /* max-width: 1000px; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #4d4d4d;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.Navbar {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.Name{
   color: white;
+  font-size: 28px;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.NavLink {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar a:hover {
+  color: #FF4500;
 }
+
