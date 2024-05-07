@@ -57,6 +57,13 @@ p {
   text-decoration: none;
 }
 
+.NavLinkName {
+  color: #171c1f;
+  font-size: 24px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
 .Navbar a:hover {
   color: #E35335;
 }
