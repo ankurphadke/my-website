@@ -35,12 +35,6 @@ function App() {
     </div>
   );
 
-  const Resume = () => (
-    <div className="AppBody">
-      <CompInterests />
-    </div>
-  );
-
   return (
     <div className="App">
       <div className="AppHeader">
@@ -51,7 +45,6 @@ function App() {
         <Route path="/work" element={<Work/>}></Route>
         <Route path="/school" element={<School/>}></Route>
         <Route path="/interests" element={<Interests/>}></Route>
-        <Route path="/resume" element={<Resume/>}></Route>
       </Routes>
     </div>
   );
