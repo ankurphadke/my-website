@@ -19,7 +19,7 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 20px;
   text-align: left;
 }
 
@@ -27,13 +27,6 @@
   color: #333;
   font-size: 28px;
   margin-right: 20px;
-}
-
-p {
-  color: #666666;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 15px;
 }
 
 .About .Contacts {
@@ -60,6 +53,7 @@ p {
   color: black;
   font-size: 28px;
   margin-right: 20px;
+  padding-top: 60px;
 }
 
 .NavLink {
@@ -78,5 +72,16 @@ p {
 
 .Navbar a:hover {
   color: #E35335;
+}
+
+a {
+  color: #000000;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
