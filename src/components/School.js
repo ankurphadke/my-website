@@ -5,9 +5,9 @@ function CompSchool() {
         School
       </h2>
       <p>
-        I recently graduated with a <b>Bachelor of Computer Science, Data
-        Science </b> from the <b>University of Waterloo</b> (ON, Canada) in
-        December 2023. My cummulative average was <b>86.5%</b>. Below are a few
+        I graduated from the <b>University of Waterloo</b> (ON, Canada) in
+        December 2023 with a <b>Bachelor of Computer Science, Data Science</b>.
+        My cummulative average was <b>86.5%</b>. Below are a few
         extra-curricular highlights from my time at Waterloo.
       </p>
       <h3>
