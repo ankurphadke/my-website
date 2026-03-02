@@ -1,51 +1,39 @@
-import './App.css';
-
-import { BrowserView } from "react-device-detect";
-
-import CompNavbar from './components/Navbar';
-import CompAbout from './components/About';
-import CompWork from './components/Work';
-import CompSchool from './components/School';
-import CompInterests from './components/Interests';
-import { Routes, Route } from 'react-router-dom';
+import './index.css';
 
 function App() {
-
-  const Home = () => (
-    <div className="AppBody">
-      <CompAbout />
-    </div>
-  );
-
-  const Work = () => (
-    <div className="AppBody">
-      <CompWork />
-    </div>
-  );
-
-  const School = () => (
-    <div className="AppBody">
-      <CompSchool />
-    </div>
-  );
-
-  const Interests = () => (
-    <div className="AppBody">
-      <CompInterests />
-    </div>
-  );
-
   return (
-    <div className="App">
-      <div className="AppHeader">
-        <CompNavbar />
-      </div>
-      <Routes>
-        <Route path="/home" element={<Home/>}></Route>
-        <Route path="/work" element={<Work/>}></Route>
-        <Route path="/school" element={<School/>}></Route>
-        <Route path="/interests" element={<Interests/>}></Route>
-      </Routes>
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      gap: '16px',
+      background: 'radial-gradient(ellipse at 50% 60%, #1a1a2e 0%, #080808 70%)',
+    }}>
+      <div style={{
+        width: '32px',
+        height: '1px',
+        background: 'rgba(255,255,255,0.2)',
+        marginBottom: '8px',
+      }} />
+      <h1 style={{
+        fontSize: 'clamp(2rem, 6vw, 4.5rem)',
+        fontWeight: 300,
+        letterSpacing: '-0.03em',
+        color: '#fff',
+      }}>
+        nothing here.
+      </h1>
+      <p style={{
+        fontSize: '0.85rem',
+        fontWeight: 400,
+        letterSpacing: '0.15em',
+        color: 'rgba(255,255,255,0.25)',
+        textTransform: 'uppercase',
+      }}>
+        check back later
+      </p>
     </div>
   );
 }
